@@ -50,27 +50,25 @@ Fault tolerant estimation for LiDAR-based system removes conflicting state estim
 * UAV Toolbox for 2020b and its dependency
 
 ### Executing program
-
+#### Run FT-LiDAR Estimation
+* In UAV_FT-LiDAR_Est directory
+* Run *attack_figure.m*
+#### Run Baseline under FDI Attacks
+* In UAV_Baseline directory
 * Open project file *uavPackageDelivery.prj*
-* Run file *FlyFullMission.m* or Click icon indexed 6
+* Run file *FlyFullMission.m* or Click the icon indexed 6
+* Run Simulation file *uavPackageDelivery.slx* by clicking *RUN*
+#### Run FT-Barrier Certificate under FDI Attacks
+* In UAV_FTBC directory
+* Open project file *uavPackageDelivery.prj*
+* Run file *FlyFullMission.m* or Click the icon indexed 6
 * Load *mapdataDemo.mat*
 * Run Simulation file *uavPackageDelivery.slx* by clicking *RUN*
 
 ## Code Authors
 
-Hongchao Zhang, Ph.D. Candidate, \
-hongchao@wustl.edu\
-Electrical & System Engineering, \
-Washington University in St. Louis
+* Hongchao Zhang, Ph.D. Candidate, hongchao@wustl.edu
+  Electrical & System Engineering, Washington University in St. Louis
 
-
-
-Shiyu Cheng, Ph.D. Student, \
-cheng.shiyu@wustl.edu\
-Electrical & System Engineering, \
-Washington University in St. Louis
-
-## Version History
-
-* 0.1
-  * Initial Release
+* Shiyu Cheng, Ph.D. Student, cheng.shiyu@wustl.edu
+  Electrical & System Engineering, Washington University in St. Louis
