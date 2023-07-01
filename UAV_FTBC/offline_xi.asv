@@ -1,0 +1,29 @@
+x1 = [-190.35, -158.688, -153.684, -125.558, -125.335];
+x2 = [95.0301, 95.3273, 69.8838, 69.9853, 48.2676];
+gx = [];
+gy = [];
+for i=1:1:4
+    gdx = linspace(x1(i),x1(i+1),20);
+    gx = [gx, gdx];
+    gdy = linspace(x2(i),x2(i+1),20);
+    gy = [gy, gdy];
+end
+gdx = linspace(x1(5),x1(1),20);
+gx = [gx, gdx];
+gdy = linspace(x2(5),x2(1),20);
+gy = [gy, gdy];
+
+boundary(gx,gy)
+
+% p = polyfit(gx,gy,10);
+% 
+% yd = polyval(p,gx);
+
+traj_x = r_X.Data;
+traj_y = r_Y.Data;
+
+figure(1);
+hold on;
+plot(gx,yd);
+plot(traj_x,-traj_y);
+
