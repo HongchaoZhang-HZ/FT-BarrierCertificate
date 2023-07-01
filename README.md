@@ -10,7 +10,7 @@ UAV Simulation of our paper 'Barrier Certificate based Safe Control for LiDAR-ba
 
 This section evaluates our proposed approach on a UAV delivery system in an urban environment.
 The UAV system is based on MATLAB UAV Package Delivery Exampl. The UAV adopts stability, velocity and altitude control modules, rendering its position control dynamics to be: 
-$$
+```math
 \begin{equation}
     \begin{bmatrix}
     [x]_1\\
@@ -35,7 +35,7 @@ $$
     [u]_2
     \end{bmatrix}_{k},
 \end{equation}
-$$
+```
 where $x[k]=[[x]_1,[x]_2]^T$ is the UAV position, $[x]_1$ and $[x]_2$ represent the position of UAV on $X$-axis and $Y$-axis, respectively. The UAV has one LiDAR sensor and two inertial navigation system (INS) sensors, denoted as INS1 and INS2. The UAV maintains two EKFs associated with each INS sensor to estimate its position at each time $k$, denoted as $\hat{x}_1[k]$ and $\hat{x}_2[k]$, respectively. The system operates in the presence of an adversary who can compromise one of the INS sensors and spoof the LiDAR sensor. 
 
 Fault tolerant estimation for LiDAR-based system removes conflicting state estimations by comparing estimations of proprioceptive sensors with additional information from exteroceptive sensors measurements. 
