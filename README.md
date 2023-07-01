@@ -4,7 +4,7 @@ UAV Simulation of our paper 'Barrier Certificate based Safe Control for LiDAR-ba
 
 > H. Zhang, S. Cheng, L. Niu and A. Clark, "Barrier Certificate based Safe Control for LiDAR-based Systems under Sensor Faults and Attacks," 2022 IEEE 61st Conference on Decision and Control (CDC), Cancun, Mexico, 2022, pp. 2256-2263, doi: 10.1109/CDC51059.2022.9992432.
 
-<img src="Figures/image.png" alt="image" style="zoom: 23%;" /> <img src="Figures/lidar.png" alt="lidar" style="zoom: 40%;" />
+<img src="Figures/image.png" alt="image" height="200" /> <img src="Figures/lidar.png" alt="lidar" height="200" />
 
 ## Description
 
@@ -40,7 +40,7 @@ where $x[k]=[[x]_1,[x]_2]^T$ is the UAV position, $[x]_1$ and $[x]_2$ represent 
 
 Fault tolerant estimation for LiDAR-based system removes conflicting state estimations by comparing estimations of proprioceptive sensors with additional information from exteroceptive sensors measurements. 
 
- <img src="Figures/FT-Est5.png" alt="FT-Est5" style="zoom:50%;" />
+ <img src="Figures/FT-Est5.png" alt="FT-Est5" height="200" />
 
 ## Getting Started
 
