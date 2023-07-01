@@ -76,5 +76,4 @@ Fault tolerant estimation for LiDAR-based system removes conflicting state estim
   Electrical & System Engineering, Washington University in St. Louis
 
 * Shiyu Cheng, Ph.D. Student, cheng.shiyu@wustl.edu \
-
   Electrical & System Engineering, Washington University in St. Louis
