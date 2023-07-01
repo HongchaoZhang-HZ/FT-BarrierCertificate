@@ -49,7 +49,6 @@ Fault tolerant estimation for LiDAR-based system removes conflicting state estim
 * MATLAB 2020b
 * UAV Toolbox for 2020b and its dependency
 
-### Executing program
 #### Run FT-LiDAR Estimation
 * In UAV_FT-LiDAR_Est directory
 * Run *attack_figure.m*
@@ -65,10 +64,17 @@ Fault tolerant estimation for LiDAR-based system removes conflicting state estim
 * Load *mapdataDemo.mat*
 * Run Simulation file *uavPackageDelivery.slx* by clicking *RUN*
 
+#### Data and Plots in Our Paper
+
+* In DataFigures directory
+* Run *CDC_figure_1.m* to plot FT-LiDAR Estimation figures
+* Run *CDC_figure_2.m* to visualize trajectories of the UAV when controlled using our proposed approach and the baseline.
+
 ## Code Authors
 
-* Hongchao Zhang, Ph.D. Candidate, hongchao@wustl.edu
+* Hongchao Zhang, Ph.D. Candidate, hongchao@wustl.edu, \
   Electrical & System Engineering, Washington University in St. Louis
 
-* Shiyu Cheng, Ph.D. Student, cheng.shiyu@wustl.edu
+* Shiyu Cheng, Ph.D. Student, cheng.shiyu@wustl.edu \
+
   Electrical & System Engineering, Washington University in St. Louis
